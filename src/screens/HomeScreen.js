@@ -12,6 +12,12 @@ export default function HomeScreen({ navigation }) {
           navigation.navigate("Steps");
         }}
       />
+      <Button
+        title="Go To Users Screen"
+        onPress={() => {
+          navigation.navigate("Users");
+        }}
+      />
       <StatusBar style="auto" />
     </View>
   );
