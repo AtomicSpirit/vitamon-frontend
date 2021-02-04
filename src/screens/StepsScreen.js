@@ -9,7 +9,6 @@ export default class StepsScreen extends React.Component {
     this.getSteps();
     this.watchSteps();
   }
-
   
   async watchSteps() {
     await Pedometer.watchStepCount((result) => {
